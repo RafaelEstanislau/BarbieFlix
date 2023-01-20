@@ -38,3 +38,14 @@ var swiper = new Swiper(".movie-content", {
         },
     }
 })
+
+let myBtn = document.getElementById('source_change')
+let myVid = document.getElementById('source_video');
+
+myBtn.addEventListener('click', on_BtnClick );
+  
+function on_BtnClick ()
+{
+    myVid.src = 'secondvideo.mp4';
+    myVid.load();
+}
