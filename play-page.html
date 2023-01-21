@@ -24,11 +24,11 @@
                     <i class="bx bx-home"></i>
                     <span class="nav-link-title">Home</span>
                 </a>
-                <a href="#home" class="nav-link">
+                <a href="index.html#movie" class="nav-link">
                     <i class="bx bx-movie"></i>
                     <span class="nav-link-title">Completos</span>
                 </a>
-                <a href="#home" class="nav-link">
+                <a href="index.html#moviesplaylist" class="nav-link">
                     <i class="bx bx-link"></i>
                     <span class="nav-link-title">Link Playlist</span>
                 </a>
@@ -36,14 +36,26 @@
         </div>
     </header>
         <div class="play-container container">
-            <div class="video-box">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ei8hPkyJ0bU" ></iframe>
+            <img src="imgs/capa.jpeg" alt="" class="play-img">
+            <div class="play-text">
+                <h2>Assista o Filme</h2>
+                <a href="#" class="watch-btn">
+                    <i class="bx bx-right-arrow play-movie"></i>
+                    <span>Play</span>
+                </a>
+            </div>
+            <div class="video-container">
+                <div class="video-box">
+                    <video id="myvideo" src="" controls></video>
+                    <i class="bx bx-x close-video"></i>
+                </div>
             </div>
         </div>
 
     <div class="copyright">
         <p>&#169; Rafael Estanislau</p>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
 </html>
