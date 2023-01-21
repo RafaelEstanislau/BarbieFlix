@@ -62,8 +62,10 @@ const movies = {
   barbieSegredoDasFadas:
     "https://estanislau-movies.s3.sa-east-1.amazonaws.com/21+-+Barbie+e+o+Segredo+das+Fadas.mp4",
   barbieRapunzel:
-    "https://estanislau-movies.s3.sa-east-1.amazonaws.com/%40harryslt91-+Barbie+Rapunzel+.mp4"   
-};
+    "https://estanislau-movies.s3.sa-east-1.amazonaws.com/%40harryslt91-+Barbie+Rapunzel+.mp4", 
+  barbieTrailer:
+    "https://estanislau-movies.s3.sa-east-1.amazonaws.com/WhatsApp+Video+2023-01-21+at+16.33.27.mp4"
+  };
 
 botaoPlay.onclick = () => {
   video.classList.add("show-video");
